@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "Tut.by clicker",
+  "description": "Tut.by clicker refresher",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": [ "https://jobs.tut.by/applicant/resumes" ],
+      "js": [ "clicker.js" ]
+    }
+  ],
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "clicker.html"
+  },
+
+    "permissions": ["tabs"]
+}
