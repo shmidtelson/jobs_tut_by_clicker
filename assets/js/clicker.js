@@ -1,5 +1,4 @@
 var $input = document.querySelectorAll('.bloko-icon-link');
-moment.tz.setDefault("Europe/Minsk");
 moment.locale('ru');
 
 var parsePage = class parsePage {
