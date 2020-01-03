@@ -7,18 +7,18 @@
 
   "content_scripts": [
     {
-      "matches": [ "https://*.jobs.tut.by/applicant/resumes" ],
+      "matches": [
+        "*://*.jobs.tut.by/applicant/resumes*",
+        "*://jobs.tut.by/applicant/resumes*"
+      ],
       "js": [
-        "assets/js/moment.js",
         "assets/js/clicker.js"
       ]
     }
   ],
 
-  "browser_action": {
-    "default_icon": "icon.png",
-    "default_popup": "clicker.html"
+  "icons": {
+    "48": "icon.png"
   },
-
-    "permissions": ["tabs"]
+  "permissions": ["tabs"]
 }
