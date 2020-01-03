@@ -9,7 +9,6 @@
     {
       "matches": [ "https://*.jobs.tut.by/applicant/resumes" ],
       "js": [
-        "assets/js/moment.js",
         "assets/js/clicker.js"
       ]
     }
